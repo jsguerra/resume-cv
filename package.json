@@ -1,0 +1,19 @@
+{
+  "name": "joseguerrauk-cv",
+  "version": "1.0.0",
+  "description": "Resume CV template",
+  "main": "index.php",
+  "keywords": [
+    "resume",
+    "cv",
+    "portfolio"
+  ],
+  "author": "Jose Guerra",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

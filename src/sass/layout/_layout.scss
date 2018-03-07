@@ -1,0 +1,32 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main--background {
+    background-color: $color__background-screen;
+}
+
+.main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .sidebar {
+        position: relative;
+        background-color: $color__background-sidebar;
+        color: white;
+        padding: 20px;
+
+        .profile {
+
+        }
+    }
+
+    .mainContent {
+        padding: 20px;
+    }
+}
+
+.siteFooter {
+    text-align: center;
+}
