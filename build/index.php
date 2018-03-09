@@ -5,8 +5,7 @@ function push_to_browser($as, $uri) {
 }
 
 $assets = array(
-    '<//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i>' => 'style',
-    '</css/normalize.css>' => 'style',
+    '</css/bootstrap-reboot.min.css>' => 'style',
     '/css/style.css' => 'style',
     '<//code.jquery.com/jquery-3.3.1.min.js>' => 'script',
     '</js/jquery-3.3.1.min.js>' => 'script'
@@ -59,6 +58,6 @@ array_walk( $assets, 'push_to_browser');
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
 		<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>');</script>
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js" async></script>
     </body>
 </html>
