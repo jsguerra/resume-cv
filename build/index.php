@@ -12,7 +12,7 @@ $assets = array(
     '</js/jquery-3.3.1.min.js>' => 'script'
 );
 
-array_walk( $assets, push_to_browser);
+array_walk( $assets, 'push_to_browser');
 
 ?>
 
@@ -32,11 +32,25 @@ array_walk( $assets, push_to_browser);
     </head>
 
     <body>
-		<header>
+		<header class="siteHeader">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__title">
+						<h1>Jose Guerra</h1>
+						<p>Front End Developer</p>
+					</div>
+					<div class="header__cta">
+						<button>View Portfolio</button>
+					</div>
+				</div>
+			</div>
+			<div class="header_bottom">
+			</div>
 		</header>
-        <main>
+        <main class="main container">
+			<p>Main content goes here</p>
         </main>
-        <footer>
+        <footer class="siteFooter">
             <p>Copyright <?php echo date('Y'); ?></p>
         </footer>
 
