@@ -27,7 +27,7 @@ array_walk( $assets, 'push_to_browser');
         <meta name="description" content="Hi I'm Jose, a web developer in London who specializes in front-end and WordPress development.">
         <meta name="author" content="Jose Guerra">
 
-		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
         <link rel="stylesheet" href="css/style.css" media="all" />
     </head>
 
