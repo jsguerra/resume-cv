@@ -65,6 +65,10 @@
 /* Base */
 /* This is set by normalize and is not integrated into the main stylesheet. It is called separately. */
 /* Layout */
+body {
+  background-color: #fbfbfb;
+}
+
 .siteHeader .header__top {
   background-color: skyblue;
 }
