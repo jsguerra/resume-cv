@@ -1,3 +1,6 @@
+/* Utilities include Variables, Mixins, Grids, etc */
+@import 'util/flexgrid';
+
 /* Base */
 /* This is set by normalize and is not integrated into the main stylesheet. It is called separately. */
 
@@ -5,7 +8,7 @@
 @import 'layout';
 
 /* Module */
-@import 'module/';
+// @import 'module/';
 
 /* State */
 @import 'state.scss';
