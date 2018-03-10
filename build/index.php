@@ -33,17 +33,31 @@ array_walk( $assets, 'push_to_browser');
     <body>
 		<header class="siteHeader">
 			<div class="header__top">
-				<div class="container">
+				<div class="container flex-grid">
 					<div class="header__title">
 						<h1>Jose Guerra</h1>
 						<p>Front End Developer</p>
 					</div>
-					<div class="header__cta">
-						<button>View Portfolio</button>
+					<div class="header__cta col two">
+						<nav class="mobile-nav-wrap" role="navigation">
+							<ul class="mobile-header-nav">
+								<li><a href="#">Nav Item 1</a></li>
+								<li><a href="#">Nav Item 2</a></li>
+								<li><a href="#">Nav Item 3</a></li>
+							</ul>
+						</nav>
+
+						<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+							<span class="menu-item"></span>
+							<span class="menu-item"></span>
+							<span class="menu-item"></span>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="header_bottom">
+			<div class="header__bottom container">
+				<img class="profileAvatar alignleft" src="images/avatar.jpg" alt="Jose Guerra" />
+				<p>I am a self-driven individual who enjoys challenges and problem solving. I develope responsive websites, pixel perfect designs, SEO and ecommerce websites.</p>
 			</div>
 		</header>
         <main class="main container">

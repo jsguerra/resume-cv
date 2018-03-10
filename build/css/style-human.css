@@ -65,11 +65,31 @@
   max-width: 100%;
 }
 
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Base */
 /* This is set by normalize and is not integrated into the main stylesheet. It is called separately. */
 /* Layout */
 body {
   background-color: #fbfbfb;
+  color: #444444;
 }
 
 .siteHeader .header__top {
@@ -81,4 +101,96 @@ body {
 }
 
 /* Module */
+.header__top {
+  padding: 40px 0 0 0;
+  color: #ffffff;
+}
+.header__top .header__title {
+  padding-left: 240px;
+}
+.header__top .header__cta {
+  text-align: right;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.header__bottom {
+  padding: 20px 0 0 0;
+}
+
+.mobile-nav-wrap {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .mobile-nav-wrap {
+    /* display: none; */
+  }
+}
+
+.mobile-header-nav {
+  background-color: #222222;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 106px;
+  right: 0;
+  width: 100%;
+}
+.mobile-header-nav li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-header-nav li a {
+  color: white;
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.mobile-header-nav li a:hover {
+  background-color: #2f2f2f;
+}
+
+.hamburger-menu {
+  display: inline-block;
+  height: 100px;
+  padding: 35px 25px;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+.hamburger-menu .menu-item {
+  background: #ffffff;
+  display: block;
+  height: 3px;
+  margin: 0 0 10px;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+}
+.hamburger-menu.open .menu-item {
+  margin: 0 0 5px;
+}
+.hamburger-menu.open .menu-item:first-child {
+  transform: rotate(45deg);
+  transform-origin: 10px;
+}
+.hamburger-menu.open .menu-item:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-menu.open .menu-item:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 8px;
+}
+
+.profileAvatar {
+  width: 100%;
+  max-width: 200px;
+  margin: -120px 40px 0 0;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+}
+
 /* State */
