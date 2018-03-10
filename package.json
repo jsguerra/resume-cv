@@ -1,8 +1,8 @@
 {
-  "name": "joseguerrauk-cv",
+  "name": "resume-cv",
   "version": "1.0.0",
   "description": "Resume CV template",
-  "main": "index.php",
+  "main": "build/index.php",
   "keywords": [
     "resume",
     "cv",
