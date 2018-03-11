@@ -4,6 +4,14 @@
 @import 'util/flexgrid';
 @import 'util/alignments';
 
+/* Vendor are third party fonts */
+@import 'vendor/animation';
+@import 'vendor/resume';
+@import 'vendor/resume-codes';
+@import 'vendor/resume-embedded';
+@import 'vendor/resume-ie7';
+@import 'vendor/resume-ie7-codes';
+
 /* Base */
 /* This is set by normalize and is not integrated into the main stylesheet. It is called separately. */
 
