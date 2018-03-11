@@ -38,20 +38,8 @@ array_walk( $assets, 'push_to_browser');
 						<h1>Jose Guerra</h1>
 						<p>Front End Developer</p>
 					</div>
-					<div class="header__cta col two">
-						<nav class="mobile-nav-wrap" role="navigation">
-							<ul class="mobile-header-nav">
-								<li><a href="#">Nav Item 1</a></li>
-								<li><a href="#">Nav Item 2</a></li>
-								<li><a href="#">Nav Item 3</a></li>
-							</ul>
-						</nav>
-
-						<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
-							<span class="menu-item"></span>
-							<span class="menu-item"></span>
-							<span class="menu-item"></span>
-						</a>
+					<div class="header__cta">
+						<a href="#">View Portfolio</a>
 					</div>
 				</div>
 			</div>
