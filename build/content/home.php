@@ -31,7 +31,11 @@
 					<h3>Current Item</h3>
 					<div class="item">
 						<div class="item__section">
-							<p>My main content area</p>
+							<h4 class="jobTitle">Job Title</h4>
+							<h5 class="companyName">Company name</h5>
+							<span class="years">2010 - 2017</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis enim eu feugiat bibendum. Proin vestibulum pretium ipsum, at aliquet ex sagittis eget. In non ullamcorper orci. Aliquam eget quam at odio finibus interdum quis nec lectus.</p>
+							<p>Nam mauris erat, pretium eget hendrerit a, placerat nec lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent varius ipsum in iaculis hendrerit. Morbi augue velit, cursus a tempor eu, fringilla sit amet est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras at mauris odio. Maecenas malesuada egestas ultricies. </p>
 						</div>
 						<div class="item__section">
 							<p>My main content area</p>
