@@ -35,11 +35,11 @@ array_walk( $assets, 'push_to_browser');
 			<div class="header__top">
 				<div class="container flex-grid">
 					<div class="header__title">
-						<h1>Jose Guerra</h1>
+						<h1>Jos&eacute; Guerra</h1>
 						<p>Front End Developer</p>
 					</div>
 					<div class="header__cta">
-						<a href="#">View Portfolio</a>
+						<a class="button" href="#"><i class="icon-briefcase"></i> Portfolio</a>
 					</div>
 				</div>
 			</div>
@@ -49,10 +49,35 @@ array_walk( $assets, 'push_to_browser');
 			</div>
 		</header>
         <main class="main container">
-			<p>Main content goes here</p>
+			<div class="flex-grid">
+				<div class="main__sidebar col four">
+					<h3>Current Item</h3>
+					<div class="item">
+						<p>My sidebar</p>
+					</div>
+					<h3>Second Item</h3>
+					<div class="item">
+						<p>Second sidebar item</p>
+					</div>
+				</div>
+				<div class="main__content col eight">
+					<h3>Current Item</h3>
+					<div class="item">
+						<div class="item__section">
+							<p>My main content area</p>
+						</div>
+						<div class="item__section">
+							<p>My main content area</p>
+						</div>
+						<div class="item__section">
+							<p>My main content area</p>
+						</div>
+					</div>
+				</div>
+			</div>
         </main>
         <footer class="siteFooter">
-            <p>Copyright <?php echo date('Y'); ?></p>
+            <p>&copy; Copyright <?php echo date('Y'); ?></p>
         </footer>
 
 		<script

@@ -4,6 +4,7 @@ body {
 }
 
 .siteHeader {
+	margin-bottom: 4rem;
 	
 	.header__top {
 		background-color: $sky-blue;
@@ -11,7 +12,8 @@ body {
 }
 
 .main {
-	
+	margin-bottom: 3rem;
+	clear: both;	
 }
 
 .siteFooter {
