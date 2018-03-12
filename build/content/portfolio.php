@@ -17,30 +17,5 @@
 			</div>
 		</header>
 		<main class="main container">
-			<div class="flex-grid">
-				<div class="main__sidebar col four">
-					<h3>Current Item</h3>
-					<div class="item">
-						<p>My sidebar</p>
-					</div>
-					<h3>Second Item</h3>
-					<div class="item">
-						<p>Second sidebar item</p>
-					</div>
-				</div>
-				<div class="main__content col eight">
-					<h3>Current Item</h3>
-					<div class="item">
-						<div class="item__section">
-							<p>My main content area</p>
-						</div>
-						<div class="item__section">
-							<p>My main content area</p>
-						</div>
-						<div class="item__section">
-							<p>My main content area</p>
-						</div>
-					</div>
-				</div>
-			</div>
+			<p>Portfolio goes here.</p>
 		</main>
