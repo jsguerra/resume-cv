@@ -6,7 +6,7 @@
 						<p>Front End Developer</p>
 					</div>
 					<div class="header__cta">
-						<a class="button" href="#"><i class="icon-home"></i> Home</a>
+						<a class="button" href="#"><i class="icon icon-home"></i> <span class="mobile">Home</span></a>
 					</div>
 				</div>
 			</div>

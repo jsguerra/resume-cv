@@ -6,7 +6,7 @@
 						<p>Front End Developer</p>
 					</div>
 					<div class="header__cta">
-						<a class="button" href="#"><i class="icon-briefcase"></i> Portfolio</a>
+						<a class="button" href="#"><i class="icon icon-briefcase"></i> <span class="mobile">Portfolio</span></a>
 					</div>
 				</div>
 			</div>
