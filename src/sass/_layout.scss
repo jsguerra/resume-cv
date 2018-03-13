@@ -6,13 +6,36 @@ body {
 .siteHeader {
 	margin-bottom: 4rem;
 	
+	@include breakpoint($mobile__large) {
+		margin-bottom: 2rem;
+	}
+	
 	.header__top {
 		background-color: $sky-blue;
 	}
 }
 
 .main {
-	clear: both;	
+	clear: both;
+	
+	.flex-grid {
+		
+		@include breakpoint($mobile__large) {
+			flex-flow: column-reverse;
+		}
+	}
+	
+	.four,
+	.eight {
+		
+		@include breakpoint($mobile__large) {
+			max-width: 100%;
+		}
+	}
+	
+	.main__content {
+		margin-bottom: 2rem;
+	}
 }
 
 .siteFooter {

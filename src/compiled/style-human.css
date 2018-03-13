@@ -5,6 +5,12 @@
   max-width: 960px;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
 .flex-grid {
   display: flex;
@@ -488,12 +494,31 @@ body {
 .siteHeader {
   margin-bottom: 4rem;
 }
+@media screen and (max-width: 480px) {
+  .siteHeader {
+    margin-bottom: 2rem;
+  }
+}
 .siteHeader .header__top {
   background-color: #5bc0de;
 }
 
 .main {
   clear: both;
+}
+@media screen and (max-width: 480px) {
+  .main .flex-grid {
+    flex-flow: column-reverse;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main .four,
+  .main .eight {
+    max-width: 100%;
+  }
+}
+.main .main__content {
+  margin-bottom: 2rem;
 }
 
 .siteFooter {
@@ -506,8 +531,18 @@ body {
   padding: 50px 0 0 0;
   color: #ffffff;
 }
+@media screen and (max-width: 480px) {
+  .header__top {
+    padding-top: 20px;
+  }
+}
 .header__top .header__title {
   padding-left: 240px;
+}
+@media screen and (max-width: 480px) {
+  .header__top .header__title {
+    padding-left: 1rem;
+  }
 }
 .header__top .header__title h1 {
   font-weight: 400;
@@ -521,6 +556,17 @@ body {
 .header__bottom {
   padding: 20px 0 0 0;
 }
+@media screen and (max-width: 480px) {
+  .header__bottom {
+    padding: 20px 0.5rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile {
+    display: none;
+  }
+}
 
 .profileAvatar {
   width: 100%;
@@ -528,6 +574,16 @@ body {
   margin: -120px 40px 0 0;
   border-radius: 100px;
   border: 2px solid #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .profileAvatar {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .profileAvatar {
+    display: none;
+  }
 }
 
 .button {
@@ -537,10 +593,27 @@ body {
   border-radius: 6px;
   transition: 0.3s;
 }
+@media screen and (max-width: 480px) {
+  .button {
+    border: 0;
+    padding: 0;
+  }
+}
 .button:hover {
   background-color: #ffffff;
   color: #444444;
   text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+  .button:hover {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    font-size: 2rem;
+  }
 }
 
 .item {

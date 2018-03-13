@@ -2,8 +2,16 @@
 	padding: 50px 0 0 0;
 	color: $white;
 	
+	@include breakpoint($mobile__large) {
+		padding-top: 20px;
+	}
+	
 	.header__title {
 		padding-left: 240px;
+		
+		@include breakpoint($mobile__large) {
+			padding-left: 1rem;
+		}
 		
 		h1 {
 			font-weight: 400;
@@ -19,4 +27,15 @@
 
 .header__bottom {
 	padding: 20px 0 0 0;
+	
+	@include breakpoint($mobile__large) {
+		padding: 20px 0.5rem 0 1rem;
+	}
+}
+
+.mobile {
+	
+	@include breakpoint($mobile__large) {
+		display: none;
+	}
 }
