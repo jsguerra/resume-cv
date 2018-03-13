@@ -34,7 +34,10 @@ body {
 	}
 	
 	.main__content {
-		margin-bottom: 2rem;
+		
+		@include breakpoint($mobile__large) {
+			margin-bottom: 2rem;
+		}
 	}
 }
 
