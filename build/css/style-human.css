@@ -440,7 +440,9 @@ body {
   background-color: #5bc0de;
 }
 
-.main {
+.main::after {
+  display: block;
+  content: "";
   clear: both;
 }
 @media screen and (max-width: 480px) {

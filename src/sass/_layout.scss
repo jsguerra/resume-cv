@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-	clear: both;
+	@include clearfix;
 	
 	.flex-grid {
 		
