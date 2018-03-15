@@ -11,6 +11,15 @@
 	margin-right: auto;
 }
 
+// Clear fix
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
 @mixin breakpoint($device-width) {
   @media screen and (max-width: $device-width) {
     @content 
