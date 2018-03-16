@@ -13,9 +13,10 @@
 			<div class="header__bottom container">
 				<img class="profileAvatar alignleft" src="images/avatar.jpg" alt="Jose Guerra" />
 				<p>I am a self-driven individual who enjoys challenges and problem solving. I develope responsive websites, pixel perfect designs, SEO and ecommerce websites.</p>
-				<h2>Portfolio</h2>
 			</div>
 		</header>
 		<main class="main container">
-			<p>Portfolio goes here.</p>
+			<h2>Portfolio</h2>
+			<p>Your portfolio here.</p>
+			<p>Add whaever you like here.</p>
 		</main>
